@@ -1,0 +1,101 @@
+.gallery
+{
+    background-color:#EEEEEE;
+    margin-top:  40px;
+    padding: 30px;
+}
+
+.container
+{
+   
+    max-width: 85%;
+    margin: 25px auto;
+}
+
+.gallery_title
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+.gallery_title h3
+{
+    background-color: #D85454;
+    color: aliceblue;
+    width: 10%;
+    margin: auto;
+   
+}
+.gallery_title h1
+{
+    font-family:cursive;
+    padding: 20px;
+}
+
+.container .image_container
+{
+    columns: 3 250px;
+    gap:15px;
+
+}
+
+.container .image_container img 
+
+{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.pizza
+{
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+.pizza .pizza_caption
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    top:0;
+    left:0px;
+    right: 0px;
+    bottom: 0;
+    opacity: 0;
+    transition: 1s;
+   
+   
+}
+
+
+.pizza_caption h2
+{
+    padding: 10px 0px;
+    /* margin-bottom: 10px; */
+    position: relative;
+    top: 110%;
+    transition: 1s;
+}
+
+.pizza_caption p
+{
+    position: relative;
+    top: 110%;
+    transition: 1s;
+   
+}
+
+.pizza:hover .pizza_caption
+{
+    opacity: 1;
+}
+
+.pizza:hover h2, .pizza:hover p
+{
+    top: 30%;
+   
+}

@@ -1,0 +1,60 @@
+#contact h5
+{
+  position: relative;
+}
+
+#contact h5::before
+{
+  content: "";
+  height: 3px;
+  width: 18%;
+  background-color: #0078FF;
+  position: absolute;
+  top: 40;
+  left: 0;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  color: #4e4e4e;
+}
+
+#contact .list-icon i {
+  color: #0078FF;
+  margin-right: 10px;
+}
+
+#contact .icons .fa-brands {
+  border-radius: 50%;
+  border: #0078FF 3px solid;
+  padding: 12px;
+  transition: all 0.5s;
+}
+
+#contact .icons .fa-brands:hover
+{
+  background-color: #0075Ff;
+  border: #A1CAFA 3px solid;
+}
+
+#contact .overlay
+{
+  background-color:rgba(11, 143, 255, 0.7);
+}
+
+#contact .overlay .container
+{
+  background-color: #fff;
+}
+
+#contact .overlay .container .btn {
+  background-color: #0078FF;
+}
+
+#contact .overlay .container .btn:hover
+{
+  background-color: #3393FF;
+}
